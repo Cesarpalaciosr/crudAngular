@@ -1,0 +1,27 @@
+<div class="table-wrapper">
+    <h2>Tabla de datos</h2>
+    <table class="fl-table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Cedula</th>
+          <th>Sexo</th>
+        </tr>
+      </thead>
+      <tbody>
+          <app-crudtablerow></app-crudtablerow>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            <button onClick={del}>Eliminar</button>
+          </td>
+          <td>
+            <button onClick={upd}>Actualizar</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>

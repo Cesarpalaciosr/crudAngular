@@ -1,0 +1,40 @@
+<div>
+    <header class="headerx">
+        <img class="header_img" src="https://pngimg.com/uploads/pokemon/pokemon_PNG148.png" alt="imagen de pikachu" />
+        <div class="header_text">
+            <p>Ingreso de personas</p>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="brand-tittle">form</div>
+            <form >
+                <div class="inputs">
+                    <label>
+                        Name:
+                        <input name="names" type="text"  />
+                    </label>
+                    <label>
+                        Last name:
+                        <input name="last_name" type="text" />
+                    </label>
+                    <label>
+                        identification:
+                        <input name="id" type="number" />
+                    </label>
+                    <label>
+                        Sex:
+                        <select class="custom-select" name="gender">
+                            <option value="-">-</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                        </select>
+                    </label>
+                    <input class="input-Submit" type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </section>
+    <app-crudtable></app-crudtable>
+    <footer>Soy el footer</footer>
+</div>
